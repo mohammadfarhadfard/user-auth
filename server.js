@@ -91,4 +91,6 @@ function checkNotAuthenticated(req, res, next){
     next()
 }
 
-app.listen(5091)
+app.listen(5091 , () => {
+    console.log('listen on 5091');
+})
